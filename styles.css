@@ -1,0 +1,139 @@
+body {
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+a {
+    color: #b27d1a;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.container {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    align-items: center;
+}
+
+.header__top-inner {
+    display: flex;
+    width: 1080px;
+    justify-content: space-between;
+    }
+
+.menu__list {
+    display: flex;
+    gap: 20px;
+    }
+
+h1 {
+    color: #b27d1a;
+    font-size: 48px;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.header__content-text {
+    color: #b27d1a;
+    font-size: 18px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__inner {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.about__columns-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__columns-inner-image {
+    padding: 20px;
+    display: flex;
+    flex-grow: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__columns-image {
+    height: 200px;
+    width: auto;
+    border-color: #b27d1a;
+    border: 2px;
+}
+
+.motivation {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.motivation__inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.motivation__text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.motivation__text2 {
+    text-align: end;
+    font-weight: 800;
+    width: 1000px;
+    color: #b27d1a;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.sign-up__inner {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 8px;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #b27d1a;
+    font-size: 30px;
+}
