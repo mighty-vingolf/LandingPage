@@ -156,6 +156,15 @@ h2 {
     color: #b27d1a;
 }
 
+h3 {
+    -webkit-animation: PULSE 2s infinite;
+}
+
+@-webkit-keyframes PULSE{
+    0%{color:#b27d1a;}	
+     110%{color: #b27d1a;}
+ }
+
 .sign-up {
     display: flex;
     justify-content: center;
@@ -175,6 +184,5 @@ footer {
     justify-content: center;
     background-color: #1f2937;
     color: #b27d1a;
-    font-size: 30px;
-    margin: 0;
+    font-size: 15px;
 }
