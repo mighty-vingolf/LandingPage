@@ -17,6 +17,36 @@ ul {
     padding-left: 0;
 }
 
+.header__content-button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    border-color: transparent;
+    transition-duration: 0.4s;
+}
+
+.header__content-button:hover {
+    background-color: #b27d1a;
+    color: white;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    border: 2px solid white;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #b27d1a;
+    color: white;
+}
+
 .container {
     width: 1200px;
     display: flex;
@@ -33,19 +63,28 @@ header {
 
 .header__top-inner {
     display: flex;
-    width: 1080px;
+    width: 1200px;
     justify-content: space-between;
+    padding-top: 20px;
     }
+
+ .logo__img {
+    height: 70px;
+}
 
 .menu__list {
     display: flex;
-    gap: 20px;
-    }
+    gap: 30px;
+}
+
+.menu__list-item:hover {
+    text-shadow: #FC0 1px 0 20px;
+}
 
 h1 {
     color: #b27d1a;
     font-size: 48px;
-    text-shadow: #FC0 1px 0 10px;
+    text-shadow: #FC0 1px 0 20px;
 }
 
 .header__content-text {
@@ -72,24 +111,25 @@ h2 {
 
 .about__columns-inner {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .about__columns-inner-image {
     padding: 20px;
+    max-width: 250px;
     display: flex;
-    flex-grow: 0;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .about__columns-image {
-    height: 200px;
-    width: auto;
-    border-color: #b27d1a;
-    border: 2px;
+    height: 300px;
+}
+
+.about__columns-description {
+    text-align: center;
 }
 
 .motivation {
@@ -136,4 +176,5 @@ footer {
     background-color: #1f2937;
     color: #b27d1a;
     font-size: 30px;
+    margin: 0;
 }
